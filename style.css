@@ -1,3 +1,9 @@
+body {
+  overflow:auto;
+}
+html {
+  scroll-behavior: smooth;
+}
 /* Navbar style */
 * {
     text-decoration: none;
@@ -123,7 +129,7 @@ h1 {
 
 .stats-container {
   max-width: 1140px;
-  height: 306px;
+  
   margin: 0 auto;
   background: #dfe3ff;
   padding: 80px 50px;
@@ -203,7 +209,7 @@ h1 {
 
 .reviewer img {
   width: 36px;
-  height: 36px;
+  
   border-radius: 50%;
   object-fit: cover;
 }
