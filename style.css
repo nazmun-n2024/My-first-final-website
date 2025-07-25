@@ -207,8 +207,145 @@ h1 {
   border-radius: 50%;
   object-fit: cover;
 }
+.cta-final {
+  background-color: #f0f4ff;
+  padding: 150px 71px;
+  text-align: center;
+}
 
- 
+.cta-content h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.cta-content p {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+.cta-final-btn {
+  background-color: #4E47FF;
+  color: #ffffff;
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+.cta-image img {
+  width: 100%;
+  max-width: 840px;
+  border-radius: 48px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+.contact-section {
+  background-color: #D6DDED;
+  padding: 0px 71px;
+}
+.contact-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 40px;
+}
+.contact-left {
+  flex: 1 1 40%;
+}
+
+.contact-left h2 {
+  font-size: 62px;
+  font-weight: bold;
+  color: #000000;
+  line-height: 120%;
+  letter-spacing: 0%;
+}
+
+.contact-right {
+  flex: 1 1 50%;
+}
+.contact-right form {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.contact-right label {
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 4px;
+}
+
+.contact-right input,
+.contact-right textarea {
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #D6DDED;
+  font-size: 20px;
+  box-shadow: #D6DDED;
+}
+.contact-btn {
+  background-color: #4E47FF;
+  color: #ffffff;
+  padding: 0px;
+  border: none;
+  border-radius: 0px;
+  font-weight: bold;
+  font-size: 18px ;
+  cursor: pointer;
+  gap: 19;
+  transition: background 0.2s ease;
+}
+
+.contact-btn:hover {
+  background-color: #4E47FF;
+}
+.footer{
+  background-color: #ffffff;
+  padding: 80px 20px;
+  text-align: center;
+}
+.footer-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  font-size: 100px;
+  font-weight: 800;
+  color: #4E47FF;
+  margin-bottom: 20px;
+}
+.footer p {
+  color: #8987A1;
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+ .footer-links a {
+  color: #8987A1;
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #4E47FF;
+}
 
 
 
