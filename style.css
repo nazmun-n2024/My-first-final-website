@@ -1,56 +1,58 @@
-body {
-  overflow:auto;
-}
-html {
-  scroll-behavior: smooth;
-}
+
 /* Navbar style */
 * {
     text-decoration: none;
 }
 .navbar{
-    margin: 0;
+    margin: 30px;
     padding-left: 15px;
     padding-right: 15px
-    position: absolute;
+  
     
 }
 .navdiv{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    
 }
 
 .logo{
+  margin-left:80pxpx ;
+  margin-top: 0px;
+  display: flex;
     font-size: 36px;
     font-weight: bold;
     color: #4E47FF
-
+  
 }
 .signup-button{
-    background-color: #4E47FF;
-   margin-left: 10px;
-    align-items: center;
-    padding: 10px 20px;
-    border-radius: 10px;
+    background-color : #4E47FF;
+    margin : 10px;
+   padding: 10px 20px;
+   display: inline;
+   box-sizing: border-box;
+   border: none ;
+   border-radius: 10px;
+   outline: none;
      color: #f6f8fc;
      font-size: 16px;
      font-weight: bold;
-   
+  
 }
+main a {
+  font-size: 14;
+  background-color: #4E47FF;
+  color: #ffffff;
+  margin : 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
 
-    body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f6f8fc;
-  color: #1a1a1a;
-  position: relative;
-  min-height: 100vh;
-  overflow: hidden;
 }
 .background-pattern {
   background-image: url(images/Hero-bg.png);
-  
-  background-size: cover;
+
   background-position: center;
   opacity: 0.1;
   position: absolute;
@@ -58,25 +60,31 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 60px;
+
 }
 
 }
 /* Hero Section */
 main {
   text-align: center;
-  margin-top: 120px;
+  padding-bottom: 200px;
+  background: url(images/Hero-bg.png) no-repeat center ;
+  background-position: center;
+    
 }
 h1 {
   font-size: 42px;
   font-weight: 800;
   line-height: 1.4;
   color: #1a1a1a;
-  margin-bottom: 40px;
+margin-top: 120px;
+margin-bottom: 40px;
 }
 .action-section{
-  padding: 80px 60px;
+  padding: 120px 60px;
   display: flex;
+  margin-top: 0px 10px;
+  
   justify-content: center;
   background-color: #f6f8fc;
 }
@@ -129,7 +137,7 @@ h1 {
 
 .stats-container {
   max-width: 1140px;
-  
+  height: 306px;
   margin: 0 auto;
   background: #dfe3ff;
   padding: 80px 50px;
@@ -209,7 +217,7 @@ h1 {
 
 .reviewer img {
   width: 36px;
-  
+  height: 36px;
   border-radius: 50%;
   object-fit: cover;
 }
